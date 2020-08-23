@@ -6,7 +6,7 @@ import sys
 
 traducao = open('example.ltf', 'r')
 
-final = open("pt.ltf", 'w+', encoding='utf8')
+final = open("pt-br.ltf", 'w+', encoding='utf8')
 
 final.write("""# Language Text File
 LANGNAME: Português Brasileiro
